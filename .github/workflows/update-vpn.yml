@@ -18,7 +18,7 @@ jobs:
 
       - name: Download and process file
         run: |
-          curl -L "https://github.com/igareck/vpn-configs-for-russia/blob/main/WHITE-SNI-RU-all.txt" \
+          curl -L "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/WHITE-SNI-RU-all.txt" \
           | grep -v '^#' \
           | sed '/^\s*$/d' > vpn.txt
 
