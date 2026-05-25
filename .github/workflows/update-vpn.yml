@@ -20,7 +20,10 @@ jobs:
         run: |
           curl -L "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/WHITE-SNI-RU-all.txt" \
           | grep -v '^#' \
-          | sed '/^\s*$/d' > vpn.txt
+          | sed '/^\s*$/d' > vpn_raw.txt
+
+          printf "#profile-title: 🛜 4happ.top – Free VPN!\n#profile-update-interval: 1\n\n" > vpn.txt
+          cat vpn_raw.txt >> vpn.txt
 
       - name: Commit and push if changed
         run: |
