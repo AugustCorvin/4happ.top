@@ -1,5 +1,5 @@
 #profile-title: 🛜 4happ.top – Free VPN!
-#profile-update-interval: 1
+#profile-update-interval: 3
 
 vless://fac0b34d-19c9-5fd4-854f-2dfa5c85d77b@158.160.234.85:443?encryption=none&security=reality&sni=ads.x5.ru&fp=chrome&pbk=qpS3_8-jvAX1XeV2-czfn16IO78N1m_zaoCPqrSU-zM&sid=0c246438&mux=true&packetEncoding=xudp#%F0%9F%87%A6%F0%9F%87%B1%20Albania%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D%20YA
 vless://24017b26-5b94-46ab-9fba-fb730a46e1f7@193.33.133.174:14443?type=xhttp&security=reality&fp=chrome&pbk=gXqYp236NB8zxHC5B6BEjOVwS7l4PrkgGJQtVgjXI1A&sid=f18c3bd9c8b9197b&sni=ads.x5.ru&mode=auto&extra={#%F0%9F%87%AB%F0%9F%87%AE%20Finland%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D
